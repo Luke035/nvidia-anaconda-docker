@@ -20,6 +20,9 @@ docker build -t nvidia-anaconda-docker <PATH_TO_DOCKERFILE_ROOT_PATH>
 nvidia-docker run -v <HOST_NOTEBOOK_DIR>:/tmp -p 8888:8888 nvidia-anaconda-docker
 ```
 
+### Notes
+Buildt image requires approximately 5GB of disk space. 
+
 ### Acknowledgments
 1. [Nvidia docker](https://github.com/NVIDIA/nvidia-docker)
 2. [Tensorflow GPU Docker](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/docker)
