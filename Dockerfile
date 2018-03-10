@@ -1,5 +1,7 @@
 FROM nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
 
+MAINTAINER luca.grazioli@outlook.com
+
 RUN apt-get update && apt-get install -y \
 	wget \
 	vim \
