@@ -17,12 +17,12 @@ docker build -t nvidia-anaconda-docker <PATH_TO_DOCKERFILE_ROOT_PATH>
 
 ### Running container
 ```
-nvidia-docker run -v <HOST_NOTEBOOK_DIR>:/tmp -p 8888:8888 nvidia-anaconda-docker
+nvidia-docker run -v <HOST_NOTEBOOK_DIR>:/tmp -p 8888:8888 -it nvidia-anaconda-docker
 ```
 
 #### From [Dockerhub image](https://hub.docker.com/r/luke035/nvidia-anaconda-docker/)
 ```
-nvidia-docker run -v <HOST_NOTEBOOK_DIR>:/tmp -p 8888:8888 luke035/nvidia-anaconda-docker
+nvidia-docker run -v <HOST_NOTEBOOK_DIR>:/tmp -p 8888:8888 -it luke035/nvidia-anaconda-docker
 ```
 
 ### Notes
